@@ -1,0 +1,18 @@
+package demo;
+
+import org.w3c.dom.ls.LSOutput;
+
+import java.security.spec.RSAOtherPrimeInfo;
+import java.sql.SQLOutput;
+
+class SNT {
+    int soKT;
+    boolean ketQua;
+    void kiemTra(){
+        ketQua= true;
+        for (int i=2; i<soKT/2; i++)
+            if( soKT % i == 0) ketQua= false;
+    }
+
+}
+
